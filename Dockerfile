@@ -1,4 +1,4 @@
-FROM node:lts-alpine
+FROM node:14-alpine
 
 ENV GLIBC_VERSION=2.31-r0
 ENV AWSCLI_VERSION=2.4.27
