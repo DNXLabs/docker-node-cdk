@@ -21,15 +21,6 @@ $ make build
 $ make shell
 ```
 
-### Environment Variables
-
-```
-AWS_ACCESS_KEY_ID=
-AWS_SECRET_ACCESS_KEY=
-AWS_DEFAULT_REGION=
-AWS_ACCOUNT_ID=
-```
-
 ## Update Docker image
 
 1. Change (or not) `VERSION` in `Makefile`
