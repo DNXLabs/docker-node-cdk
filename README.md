@@ -38,6 +38,7 @@ The Docker image has the following:
 - Alpine
 - [aws-cli](https://github.com/aws/aws-cli)
 - [aws-shell](https://github.com/awslabs/aws-shell)
+- [aws-cdk](https://github.com/aws/aws-cdk)
 - envsubst: quite useful to create file based on a template using env vars
 
 ## Author

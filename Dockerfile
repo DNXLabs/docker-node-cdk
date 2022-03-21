@@ -1,8 +1,8 @@
-FROM node:14-alpine
+FROM node:16.14-alpine3.15
 
 ENV GLIBC_VERSION=2.31-r0
 ENV AWSCLI_VERSION=2.4.27
-ENV AWSCDK_VERSION=2.16.0
+ENV AWSCDK_VERSION=2.17.0
 
 RUN apk --no-cache update && \
     apk --no-cache add \

@@ -1,4 +1,4 @@
-name: Cron Bump aws-cli-v2 Version
+name: Cron Bump aws-cdk Version
 
 on:
   schedule:
