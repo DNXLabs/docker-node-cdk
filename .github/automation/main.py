@@ -10,7 +10,7 @@ LATEST_RELEASES_PATH_AWS_CDK = 'https://api.github.com/repos/aws/aws-cdk/git/ref
 LATEST_RELEASES_PATH_DNX_AWS_CLI = 'https://api.github.com/repos/DNXLabs/docker-node-cdk/releases/latest'
 GITHUB_TOKEN = os.getenv('GITHUB_TOKEN')
 GITHUB_REPOSITORY_ID = '470856555'
-DEFAULT_BRANCH = os.getenv('DEFAULT_BRANCH', 'master')
+DEFAULT_BRANCH = os.getenv('DEFAULT_BRANCH', 'main')
 
 
 # AWS-CLI upstream
