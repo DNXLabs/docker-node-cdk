@@ -1,8 +1,8 @@
-FROM node:16.14-alpine3.15
+FROM node:lts-alpine
 
 ENV GLIBC_VERSION=2.31-r0
 ENV AWSCLI_VERSION=2.4.27
-ENV AWSCDK_VERSION=2.17.0
+ENV AWSCDK_VERSION=2.18.0
 
 RUN apk --no-cache update && \
     apk --no-cache add \
@@ -51,6 +51,7 @@ RUN npm i -g npm
 RUN npm i -g aws-cdk@${AWSCDK_VERSION} typescript@latest @types/node@latest
 
 WORKDIR /work
+
 
 ENTRYPOINT [ "aws" ]
 
