@@ -2,7 +2,7 @@ FROM node:lts-alpine
 
 ENV GLIBC_VERSION=2.31-r0
 ENV AWSCLI_VERSION=2.4.27
-ENV AWSCDK_VERSION=2.96.2
+ENV AWSCDK_VERSION=2.97.0
 
 RUN apk --no-cache update && \
     apk --no-cache add \
